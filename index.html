@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
 
@@ -25,7 +26,22 @@
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>When applying a CSS rule, "*" means the rule will be applied to all the elements visble on the page</li>
+          <li> div {color: blue; text-align: justify;}</li>
+
+              <li>div is the selector which defines the element or attributes to which the rules, or declarations, will apply.</li>
+              <li>Declarations contain two important components proprety:value, the CSS property we want to apply and the value of 
+                  the property. For example, the declaration color: blue; includes the CSS property color and the value for that property, blue.
+              </li>
+
+          <li>A margin indicates how much space we want around the outside of an element.</li>
+          <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>The period preceding card designates this as a class selector. Any HTML element assigned to the card class will gain these property assignments from the CSS.</li>
+          <li>A link element creates a connection to an external file</li>
+          <li>The rel attribute, which goes inside of the link brackets, specifies the relationship between the current document and the linked document resource.</li>
+          <li>The href attribute, also goes inside of link brackets, specifies the location (URL) of the external resource. The href attribute is using a relative path.
+              This means the location is derived from the current location (in this case, index.html). To locate the style sheet from the current location, we must look in the assets folder, hence assets/style.css.
+          </li>
         </ul>
       </section>
    
@@ -34,6 +50,18 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout: switch to another branch and check it out into your working directory</li>
+          <li>To navigate to your home directory, use "cd" or "cd ~"</li>
+          <li>To navigate to the previous directory (or back), use "cd -"</li>
+          <li>To navigate up one directory level, use "cd .."</li>
+          <li>git branch: list your branches, a * will appear next the currently active branch</li>
+          <li>Git Flow: git add -A, git commit -m "add a message of changes", git pull origin main, git push origin feature/"current branch"</li>
+          <li>git add -A: Adds the changes files in our working directory to the stagging area of Git</li>
+          <li>git commit -m "": commits our changes to out repo</li>
+          <li>git commit origin main: let's us make sure our current branch is up to date before making a pull request</li>
+          <li>git push origin feature/"current branch": pushes up all our changes</li>
+          <li>git pull origin main: pulls the remote branch into the local main branch (be sure to be in main branch in Git Bash)</li>
+        
         </ul>
       </section>
    
